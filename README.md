@@ -1,1 +1,1 @@
-# Fasi.AI-distributional-training-on-Azure-ML
+# Image segmentation distributional training on Azure ML
