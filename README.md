@@ -25,17 +25,11 @@ https://www.kaggle.com/c/airbus-ship-detection
 The project is for segmenting ships from sattelite images. We used their train_v2 data.
 
 To run the notebook, you need to:
-1. create a container "airbus" in Azure storage.
-2. Upload "train_v2" into the container by using Azure storage explorer
+1. create a container in Azure storage.
+2. Upload "train_v2" into the container with folder name "airbus"
 
 ## Package
-We used a package "Fast.AI". As they claimed:
-
-*“Deep learning is transforming the world. We are making deep learning easier to use and getting more people from all backgrounds involved ……*
-
-*“… We want to make deep learning as accessible as possible– including to people using uncool languages like C#, uncool operating systems like Windows (which is used by the majority of the world), ……”*
-
-It can use less codes to create deep learning model and train the model. For example, we used 3 lines for the image classfication:
+We used a package "Fast.AI". It can use less codes to create deep learning model and train the model. For example, we used 3 lines for the image classfication:
 
 >data = ImageDataBunch.from_folder(data_folder, train=".", valid_pct=0.2, ds_tfms=get_transforms(), size=sz, bs = bs, num_workers=8).normalize(imagenet_stats)
 
