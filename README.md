@@ -1,4 +1,4 @@
-# Image segmentation distributional training on Azure ML
+# Distributional training of Image segmentation on Azure ML
 
 The repo will show how to complete distributional training of image segmentation on Azure ML.
 
