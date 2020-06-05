@@ -45,6 +45,6 @@ You can install it by:
 
 >pip install fastai
 
-## Distributional training
+## Distributed training
 
-Fasi.AI only support the NCCL backend distributional training, which is not natively supported by Azure ML. We used a script "azureml_adapter.py" to help complete the NCCL initialization on Azure ML.
+Fasi.AI only support the NCCL backend distributed training, which is not natively supported by Azure ML. We used a script "azureml_adapter.py" to help complete the NCCL initialization on Azure ML.
