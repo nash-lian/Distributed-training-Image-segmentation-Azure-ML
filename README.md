@@ -1,6 +1,8 @@
 # Distributed training of Image segmentation on Azure ML
 
-The repo will show how to complete distributional training of image segmentation on Azure ML.
+The repo will show how to complete distributional training of image segmentation on Azure ML. It is for the blog:
+
+[Simple and easy distributed deep learning with Fast.AI on Azure ML](https://techcommunity.microsoft.com/t5/ai-customer-engineering-team/simple-and-easy-distributed-deep-learning-with-fast-ai-on-azure/ba-p/1434685)
 
 ## Platform
 
